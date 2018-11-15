@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "*"
+const prefix = "!!!"
 
 console.log("Welcome Again !");
  
@@ -24,4 +24,4 @@ console.log("Welcome Again !");
 
 
 
-client.login("NDU2NjE2MDQ0NjIzMjk4NTg1.Dsgy0A.Uel2pDy9APntVsvTUCy3aNcX4d8");
+client.login(process.env.BOT_TOKEN);
