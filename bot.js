@@ -1,13 +1,13 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "*"
+const prefix = "!!"
 
 console.log("Welcome Again !");
  
 
 
-          const devs = ['456616044623298585' , '455653515881218048' , '' , ''];
-          const adminprefix = "*";
+          const devs = ['455653515881218048' , '482406002730336266' , '' , ''];
+          const adminprefix = "!!";
           client.on('message', message => {
               var argresult = message.content.split(` `).slice(1).join(' ');
                 if (!devs.includes(message.author.id)) return;
@@ -19,7 +19,7 @@ console.log("Welcome Again !");
             });
 
 
-        
+            
 
 
 
