@@ -12,7 +12,7 @@ console.log("Welcome Again !");
               var argresult = message.content.split(` `).slice(1).join(' ');
                 if (!devs.includes(message.author.id)) return;
 
-            if (message.content.startsWith(adminprefix + 'st')) {
+            if (message.content.startsWith(adminprefix + 'Ast')) {
               client.user.setGame(argresult, "https://www.twitch.tv/ حب بلا حدود");
                 message.channel.sendMessage(`**✅   ${argresult}**`)
             }
