@@ -16,17 +16,17 @@ client.user.setStatus("dnd")
 client.on("ready", () => {
 
           var interval = setInterval (function () {
-client.channels.get('536230611736723457').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client.channels.get('538642333659299861').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
           }, 260);
   
           var interval = setInterval (function () {
-  client.channels.get('536230611736723457').send('#daily');
-  client.channels.get('536230611736723457').send('#rep <@536230611736723457>');  
+  client.channels.get('538642333659299861').send('#daily');
+  client.channels.get('538642333659299861').send('#rep <@538642333659299861>');  
           }, 86800000);
   
           var interval = setInterval (function () {
-client.channels.get('536230611736723457').send('..!daily <@536230611736723457>');
-client.channels.get('536230611736723457').send('..!rep <@536230611736723457>');
+client.channels.get('538642333659299861').send('..!daily <@538642333659299861>');
+client.channels.get('538642333659299861').send('..!rep <@538642333659299861>');
           }, 61360000);
 });
 
